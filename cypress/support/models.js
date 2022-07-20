@@ -1,14 +1,16 @@
+// OOP Concept
 
+// Get the URL.
 import {modelSURL} from './authentication.constant';
 // place the whole data from modelsPage.json to var 'data'
 var data = require('../fixtures/modelsPage.json')
 
 export class ModelS{
-
+// create a function(method):
 urlverification(){
   cy.wait(500)
   cy.contains('Model S').click()
-  // assertion:
+  // assertion by URL:
   cy.url().should('eq',modelSURL)
 }
 
@@ -24,5 +26,5 @@ cy.get('[class="tds-link tcl-link"]').each(($el, index)=>{
 }
 
 }
-
+// I have created my Tesla-'new model' object as well.. 
 export const onModelSPage = new ModelS
