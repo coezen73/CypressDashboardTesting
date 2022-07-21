@@ -16,8 +16,9 @@ describe('tesla.com Automation Testing', ()=>{
   // Use the functions that we create on 'Model S Page'
         onModelSPage.urlverification()
         onModelSPage.privacy_verification()
-
+        onModelSPage.modelScomparePage()
     })
 
 })
+
 
