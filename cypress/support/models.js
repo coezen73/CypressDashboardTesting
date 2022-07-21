@@ -8,7 +8,7 @@ var comparePage = require('../fixtures/comparePage.json')
 
 export class ModelS{
 // create a function(method):
-urlverification(){
+urlverification(){ 
   cy.wait(500)
   cy.contains('Model S').click()
   // assertion by URL:
