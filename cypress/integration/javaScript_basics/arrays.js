@@ -1,5 +1,6 @@
 
-let tools = ['selenium', 'cypress', 'wdio', 'uft', 'protractor']  // also possible to use 'var'
+let tools = ['selenium', 'cypress', 'wdio', 'uft', 'protractor']  
+// also possible to use 'var'
 
 // Convert array to a string:
 const string = tools.toString();   // const = constructor

@@ -1,8 +1,8 @@
 // Create a Car class:
 // this car should have 'Name, model and year:
 class Car {
-    constructor(carName, model, year) {       // At each class we need a constructor
-        this.carName = carName;              // I pointed with 'this.' the exact element that we use 
+    constructor(name, model, year) {       // At each class we need a constructor
+        this.name = name;              // I pointed with 'this.' the exact element that we use 
         this.model = model;
         this.year = year;
     }

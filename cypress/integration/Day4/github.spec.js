@@ -3,9 +3,9 @@
 import {githubURL} from '../../support/authentication.constant'
 import { ongithubPage } from '../../support/github'
 
-describe('Udemy Test Cases' ,()=>{
+describe('Github Page Test Cases' ,()=>{
 
-    beforeEach('Navigate to udemy.com',()=>{
+    beforeEach('Navigate to github.com',()=>{
 
         cy.visit(githubURL)
     })

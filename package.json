@@ -4,8 +4,8 @@
   "description": "Cypress demo",
   "main": "index.js",
   "scripts": {
-    "TeslaModelS":"npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day3/tesla.spec.js' "
-  
+    "TeslaModelS":"npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day3/tesla.spec.js' ",
+  "githubPage": "npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day4/github.spec.js' "
   },
   "author": "Cemil",
   "license": "ISC",

@@ -1,8 +1,23 @@
 
 //-------------------------------------------------------------------------------
 // I CAN NOT RUN THE TEST CASES; BECAUSE. -> 1: MY PAGE IS IN GERMAN; 
-//2: Before go to the login page, I HAVE POP UP(Alert) FRAME WHICH 
+//2: Before go to the login page, I COOKIE FRAME WHICH 
 // THEY DID NOT SHOW HOW TO HANDLE WITH IT YET!!!!
+
+// cy.clearCookie()
+// To clear a browser cookie, use the cy.clearCookie() command.
+
+// cy.getCookie('token').should('be.null')
+
+// cy.get('#clearCookie .set-a-cookie').click()
+
+// cy.getCookie('token').should('have.property', 'value', '123ABC')
+
+// // cy.clearCookies() yields null
+// cy.clearCookie('token').should('be.null')
+
+// cy.getCookie('token').should('be.null')
+
 
 import { username,password,wrongpassword,wrongusername,url } from './authentication.constant'
 

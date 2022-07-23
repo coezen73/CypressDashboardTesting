@@ -30,7 +30,7 @@ describe("Web Elements",()=>{
     cy.get('input #radio1')
 
     // Locating webelement by 2 OR MORE DIFFERENT ATTRIBUTES:
-    cy.get('[name="abuse"][class="icheck-helper][style="position: absolute; opacity: 0;"]#radio1#yellow')
+    cy.get('[name="abuse"][class="icheck-helper]#radio1#yellow')
 
     //Locating webelement by CONTAINS METHOD:
     // -> We will use contains method mostly with elements with text

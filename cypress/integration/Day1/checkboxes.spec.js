@@ -11,6 +11,7 @@ describe('Checkbox Testing', () => {
         // -> We can change it to ipad-iphone - Samsungnote 10 or Macbook..  
         cy.wait(2000)
         // => '.should' -> represented by 'assert' in Test Runner Page
+        // get the element, check it and assert it if it is checked or not;
         cy.get('#box1').check().should('be.checked')   
         // cy.get('#box1').check().should('not.be.checked')
         cy.wait(2000)
