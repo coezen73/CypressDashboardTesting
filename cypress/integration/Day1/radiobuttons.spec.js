@@ -11,7 +11,7 @@ describe('radiobuttons Testing',()=>{
             .check({force:true})
             .should('be.checked')
 
-            cy.wrap(radioButtons).eq(1)
+            cy.wrap(radioButtons).eq(0)
             .check({force:true})
             .should('be.checked')
 
@@ -22,12 +22,7 @@ describe('radiobuttons Testing',()=>{
             }
         })
 
-
     })
-
-
-
-
 
 })
 

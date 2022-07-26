@@ -46,11 +46,17 @@ cy.go('back')
 
 cy.get('locator').prev.click()
 cy.get('locator').prevALL.click({multiple:true});
+
+// position handling
+// https://the-internet.herokuapp.com.login
+cy.get('locator').click('top')
+cy.get('locator').click('bottom')
+cy.get('locator').click('topleft')
  
 // hover handling:
 // It comes to the specific locator-element and click it
-cy.get(loc).trigger('mouseover').click 
+cy.get('locator').trigger('mouseover').click() 
 // we can click on the button up- left - right - center -down .. wherever we want to.
-cy.get(loc).trigger('mouseup').click 
+cy.get('locator').trigger('mouseup').click() 
 // clear the box and type it the new one we want to type:
 cy.get('username').clear().type('username') 

@@ -9,7 +9,7 @@ describe('Conditional Testing', () => {  // BASICALLY WE USE IF-ELSE STATEMENTS
         cy.get('body').then((body) => { 
         // -> find me wikivoyage inside the body:
         // if it's exist(.length > 0);
-            if (body.find('[data-jsl10n="wikivoyage.name1"]').length > 0) { 
+            if (body.find('[data-jsl10n="wikivoyage.name"]').length > 0) { 
                 // get it and  click on it.
                 cy.get('[data-jsl10n="wikivoyage.name"]').click() 
                 // then make an assertion by checking the url:
@@ -19,7 +19,7 @@ describe('Conditional Testing', () => {  // BASICALLY WE USE IF-ELSE STATEMENTS
                 // get and click the 'commons` on the page 
                 cy.get('[data-jsl10n="commons.slogan"]').click() 
                 //make an assertion with its url too:
-                cy.url().should('eq', 'https://common.wikimedia.org/wiki/Main_Page')
+                cy.url().should('eq', 'https://commons.wikimedia.org/wiki/Main_Page')
             }
 
         })
