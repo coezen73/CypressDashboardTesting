@@ -10,6 +10,6 @@ export class Meetsky {
         
      } 
 
-
-
 }
+
+export const onMeetSky = new Meetsky

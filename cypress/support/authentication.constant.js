@@ -34,5 +34,9 @@ export const githubLoginURL  = "https://github.com/login"
 
 export const meetskyURL = "https://qa.meetsky.net/index.php/login"
 export const Username = "Employee1"
+export const Wrong_username = "Coezen73"
 export const Password = "Employee123"
-export const demoblazeURL = "https://www.demoblaze.com/index.html"
+export const Wrong_password = "123456"
+
+
+// export const demoblazeURL = "https://www.demoblaze.com/index.html"
