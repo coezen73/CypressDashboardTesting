@@ -6,7 +6,7 @@
   "scripts": {
     "TeslaModelS":"npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day3/tesla.spec.js' ",
   "githubPage": "npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day4/github.spec.js' ",
-  "meetSKY":"npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day6-MEETSKY/meetsky.spec.js' "
+  "meetSKY":"npx cypress run --record --key 56b269ba-ad10-4503-a60b-cff0f7f095fa --spec 'cypress/integration/Day6-MEETSKY/meetskyLogin.spec.js' "
   },
   "author": "Cemil",
   "license": "ISC",
