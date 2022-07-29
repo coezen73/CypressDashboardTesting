@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+ import './orHrm_commands'
 import 'cypress-file-upload';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

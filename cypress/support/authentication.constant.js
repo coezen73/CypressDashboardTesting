@@ -2,7 +2,7 @@
 // we create a URL
 // -> It is a kind of configuration.properties which we have as 'authentication.js' in 'support' folder.
 // we will call this URL from the 'radiobuttons.spec.js' 
- export const URL = "http://practice.cybertekschool.com/radio_buttons"
+export const URL = "http://practice.cybertekschool.com/radio_buttons"
 //--------------------------------------------------------------------------------
 
 // I CAN NOT RUN THE Facebook TEST CASES; BECAUSE. -> 1: MY PAGE IS IN GERMAN; 
@@ -25,7 +25,7 @@ export const comparePageURL = "https://www.tesla.com/compare"
 
 
 export const githubURL = "https://www.github.com/"
-export const githubLoginURL  = "https://github.com/login"
+export const githubLoginURL = "https://github.com/login"
 
 
 // export const petClinicURL = "https://petclinic.haeger-consulting.de"
@@ -34,9 +34,17 @@ export const githubLoginURL  = "https://github.com/login"
 
 export const meetskyURL = "https://qa.meetsky.net/index.php/login"
 export const Username = "Employee1"
-export const Wrong_username = "Coezen73"
 export const Password = "Employee123"
-export const Wrong_password = "123456"
 
 
-// export const demoblazeURL = "https://www.demoblaze.com/index.html"
+
+export const demoblazeURL = "https://www.demoblaze.com/index.html"
+
+export const orangeHrmURL = "https://opensource-demo.orangehrmlive.com/"
+export const UserName = "Admin"
+export const PassWord = "admin123"
+export const Wrong_UserName = "Coezen73"
+export const Wrong_PassWord = "123456"
+
+
+

@@ -1,24 +1,31 @@
 // OOP Concept
 
+import {teslaURL} from '../..//support/authentication.constant'
+import { onModelSPage} from '../../support/models'
+import { onModel3Page} from '../../support/model3'
 
 
-import {teslaURL} from '../../support/authentication.constant'
-import { onModelSPage } from '../../support/models'
 
-describe('tesla.com Automation Testing', ()=>{
 
-    beforeEach("Navigate to tesla.com",()=>{
-    // I use import file 
-        cy.visit(teslaURL)
-    })
 
-    it("Test One - Model-S, page testing ", ()=>{
-  // Use the functions that we create on 'Model S Page'
-        onModelSPage.urlverification()
-        onModelSPage.privacy_verification()
-        onModelSPage.modelScomparePage()
-    })
-
+describe('Tesla.com automation',()=>{
+beforeEach('Navigate the page to tesla.com',()=>{
+    cy.visit(teslaURL)
 })
 
+    it('Model S Testing',()=>{
+        
+        onModelSPage.urlVerification()
+        onModelSPage.privacy_Verification()
+        onModelSPage.modelScomparePage()
+              
+    })
 
+    it.only('Model 3 Testing',()=>{
+        
+        onModel3Page.urlVerification()
+        // onModelSPage.privacy_Verification()
+        // onModelSPage.modelScomparePage()
+              
+    })
+})

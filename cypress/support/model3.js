@@ -1,4 +1,5 @@
 // OOP Concept
+
 import { model3URL } from "./authentication.constant"
 var data = require('../fixtures/modelsPage.json')
 var comparePage = require('../fixtures/comparePage.json')
