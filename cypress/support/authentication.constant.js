@@ -28,14 +28,13 @@ export const githubURL = "https://www.github.com/"
 export const githubLoginURL = "https://github.com/login"
 
 
-// export const petClinicURL = "https://petclinic.haeger-consulting.de"
-// export const UserName = "petclinic"
-// export const PassWord = "likemypet"
+export const petClinicURL = "https://petclinic.haeger-consulting.de"
+export const benutzername = "petclinic"
+export const passcode = "likemypet"
 
 export const meetskyURL = "https://qa.meetsky.net/index.php/login"
 export const Username = "Employee1"
 export const Password = "Employee123"
-
 
 
 export const demoblazeURL = "https://www.demoblaze.com/index.html"

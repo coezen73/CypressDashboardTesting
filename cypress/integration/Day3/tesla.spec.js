@@ -21,7 +21,7 @@ beforeEach('Navigate the page to tesla.com',()=>{
               
     })
 
-    it.only('Model 3 Testing',()=>{
+    it('Model 3 Testing',()=>{
         
         onModel3Page.urlVerification()
         // onModelSPage.privacy_Verification()
