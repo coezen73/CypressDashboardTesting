@@ -33,24 +33,6 @@ describe('orangeHrm Login Testing', () => {
 
   })
 
-  it('Blank password box, Negative Testing ', () => {
-
-    cy.Empty_Password_Field_Test()
-
-  })
-
-  it('Blank username box, Negative Testing ', () => {
-
-    cy.Empty_Username_Field_Test()
-
-  })
-
-  it('Blank username-password box, Negative Testing ', () => {
-
-    cy.Empty_Username_And_Password_Field_Test()
-
-  })
-
 
 })
 
@@ -65,7 +47,7 @@ describe('Main Menu Headers', () => {
   it("Get the main menu headers", () => {
 
     cy.wait(1000)
-    cy.get('.firstLevelMenu').each(($el, index) => {
+    cy.get('.oxd-main-menu-item-wrapper').each(($el, index) => {
       cy.log('$el: ', $el.text())
       const text = $el.text()
       expect(text).to.contain(data.firstLevelMenu[index])

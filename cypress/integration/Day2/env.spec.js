@@ -21,12 +21,16 @@ if (url.include('test')) {         // <- if 'url' will use to run tests,
     // or else;
 } else if (url.include('uat')) {
     cy.fixture('uat.json').then((data) => {  
-      // Credentials:
+
+      // Credentials...
 
     })
-    // or else;              
+    // or else; 
+
 } else if (url.include('prod')) {
     cy.fixture('prod.json').then((data) => {  
+
+        // Credentials...
 
     })
 }

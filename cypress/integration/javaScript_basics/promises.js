@@ -1,5 +1,5 @@
 // we are using the promises, because especially in UI, we often use If-else statements.
-// And also, Cypress has 4 sec. wait time as a default, but; mostly we can create additional waits by using them too.
+// And also, Cypress has 4 sec. wait time as a default, but; mostly we can also create additional waits by using them.
 
 function getNumber(currency) {
 

@@ -1,5 +1,5 @@
-// I CAN NOT RUN THE TEST CASES; BECAUSE. -> 1:MY PAGE IS IN GERMAN; 
-//2: Before go to the login page, I HAVE POP UP(Alert) FRAME WHICH 
+// I CAN NOT RUN THE TEST CASES; BECAUSE. ->  
+// Before go to the login page, I HAVE POP UP(Alert) FRAME WHICH 
 // THEY DID NOT SHOW HOW TO HANDLE WITH IT YET!!!!
 
 describe('Facebook  Login Page Smoke Test', () => {

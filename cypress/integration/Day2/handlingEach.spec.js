@@ -10,15 +10,15 @@ describe('Handling each function', () => {
     // I hardcoded, because 'wikipedia credentials are in cypress.json
         cy.visit('https://opensource-demo.orangehrmlive.com/') 
     // 'clear' method is important to be sure that its ready to type new syntax   
-        cy.get('[name="txtUsername"]').clear().type('Admin') 
-        cy.get('#txtPassword').clear().type('admin123')     
-        cy.get('[class="button"]').click()           // (# = id)
+        cy.get('[name="username"]').clear().type('Admin') 
+        cy.get('[name="password"]').clear().type('admin123')     
+        cy.get('[type="submit"]').click()           // (# = id)
 
     })
 
     it('Testing each Text ', () => {
       // get all(each) 'td elements': for each loop-> run each of them one by one
-        cy.get('.quickLinkText').each((element, index) => { 
+        cy.get(['class="orangehrm-container"']).each((element, index) => { 
          // I sorted each elements by index number
          
             cy.log('element: ', element.text()) // printed each of them in console

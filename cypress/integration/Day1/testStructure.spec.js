@@ -1,4 +1,4 @@
-// .spec means => this time, we r going to run the test in cypress test runner.
+// .spec means => this time, we are going to run the test in cypress test runner.
 
 /// <reference types="cypress" />  
 

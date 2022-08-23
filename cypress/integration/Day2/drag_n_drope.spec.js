@@ -15,8 +15,8 @@ describe('Drag and Drop Feature', () => {
 
 // This time we will create some sort of functions:
 // Whenever I want to work with 'drag&drop', We need to use 'datatransfer Interface' from 'JS'
-const datatransfer = new DataTransfer;
 
+const datatransfer = new DataTransfer;
 
 function drag_and_drop() {
  // we use .trigger() for 'drag & drop'
